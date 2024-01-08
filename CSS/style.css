@@ -8,19 +8,20 @@ body {
 }
 
 /* header section  */
-header {
+.header-background {
     background: linear-gradient(180deg,
             #070211 0%,
             rgba(7, 2, 17, 0.00) 100%),
         url('../resources/Banner\ Image.png') no-repeat;
-
-    height: 560px;
+    /* width: 1230px; */
+    height: 600px;
     border-radius: 16px;
     background-size: 100%;
-    margin: 50px 140px 0;
+    margin: 50px 140px 0px;
     display: flex;
     align-items: center;
     justify-content: center;
+    max-height: fit-content;
 
 }
 
@@ -174,7 +175,7 @@ header {
     margin: 120px 140px;
     align-items: center;
     border-radius: 10px;
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 
 .new-park-hotel-details {
@@ -228,32 +229,182 @@ header {
 /* coming soon section */
 .coming-soon-section {
     display: flex;
-    justify-content: space-around;
+    height: 463px;
+    justify-content: space-between;
     align-items: center;
     margin: 120px 140px 0;
-    height: 550px;
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 
 .left-section {
-    width: 400px;
+    /* width: 400px; */
+    margin-top: 104px;
+}
+
+.new-best {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+
+}
+
+.coming-soon {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    margin-top: 0;
+    margin-left: -65px;
+}
+
+.coming-soon-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 0;
+    width: 393px;
+
+
 }
 
 .right-section {
-    width: 276px;
+    /* width: 276px; */
+    margin-right: -5px;
+    margin-top: 112px;
+}
+
+.right-section>h3 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.right-section>p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.right-section>img {
+    width: 140px;
+    height: 140px;
+    margin-top: 43px;
 }
 
 .middle-section {
-    /* width: 463px; */
-    border-radius: 463px;
+    width: 440px;
+    border-radius: 440px;
     border: 15px solid #F00;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 160px 0 40px;
 }
-.middle-section>img{
+
+.middle-section>img {
     display: flex;
     justify-content: center;
     width: 365px;
     margin: 40px;
+}
+
+/* holidays sale 50% section */
+.holiday-section {
+    margin: 120px 140px;
+}
+
+.sale-section {
+    margin-bottom: 64px;
+}
+
+.what {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+.sale-section>h3 span {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-right: 20px;
+}
+
+.sale-section>h3 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.holiday-description {
+    display: flex;
+    justify-content: center;
+    margin-top: 28px;
+
+}
+
+.holiday-description>p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.discount-img {
+    background: url('/resources/Rectangle\ 2.png'), url('../resources/Rectangle\ 1.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, right 0;
+    background-size: 1320px 229px, 400px 438px;
+    border-radius: 10px;
+    height: 650px;
+
+}
+
+
+
+
+
+
+
+
+.bimage>.image-one {
+    width: 206.841px;
+    height: 206.841px; 
+    padding: 110px 290px 0 0;
+    margin-left: 0;
+}
+.bimage>.image-two {
+width: 710px;
+display: block;
+padding-left: 50px;
+margin-top: 40px;
+margin-right: -40px;
+}
+
+
+.bimage {
+    display: flex;
+    justify-content: right;
+   
 }
