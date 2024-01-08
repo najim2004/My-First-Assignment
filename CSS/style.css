@@ -173,22 +173,15 @@ header {
     height: 440px;
     margin: 120px 140px;
     align-items: center;
+    border-radius: 10px;
+    border: 1px solid;
 }
 
-.new-park-hotel-details h5 {
-    color: #070211;
-    font-family: Inter;
-    font-size: 30px;
-    font-weight: 600;
-    text-transform: capitalize;
-    text-align: center;
-    padding-bottom: 0;
-
-
-
+.new-park-hotel-details {
+    margin-top: -15px;
 }
 
-.new-park-hotel-details h5>span {
+.place-date-time>span {
     color: #F00;
     text-align: center;
     font-family: Inter;
@@ -197,10 +190,25 @@ header {
     text-transform: capitalize;
 }
 
+.place-date-time {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    color: #070211;
+    ;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 550;
+    text-transform: capitalize;
+    text-align: center;
+    padding-bottom: 10px;
+
+}
 
 .btn {
     display: flex;
     justify-content: center;
+    margin-top: 30px;
 }
 
 .btn button {
@@ -216,6 +224,36 @@ header {
     padding: 16px 32px;
     font-weight: 600;
 }
-.a{
-    margin-bottom: 0;
+
+/* coming soon section */
+.coming-soon-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 120px 140px 0;
+    height: 550px;
+    border: 1px solid;
+}
+
+.left-section {
+    width: 400px;
+}
+
+.right-section {
+    width: 276px;
+}
+
+.middle-section {
+    /* width: 463px; */
+    border-radius: 463px;
+    border: 15px solid #F00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.middle-section>img{
+    display: flex;
+    justify-content: center;
+    width: 365px;
+    margin: 40px;
 }
