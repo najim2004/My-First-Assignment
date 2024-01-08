@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+}
+
 body {
     /* Inter font  */
     font-family: 'Inter', sans-serif;
@@ -13,7 +17,6 @@ body {
             #070211 0%,
             rgba(7, 2, 17, 0.00) 100%),
         url('../resources/Banner\ Image.png') no-repeat;
-    /* width: 1230px; */
     height: 600px;
     border-radius: 16px;
     background-size: 100%;
@@ -94,7 +97,6 @@ body {
     display: flex;
     justify-content: center;
     height: 500px;
-    /* margin: 0 399px ; */
 }
 
 /* Welcome to midnight party section */
@@ -175,7 +177,6 @@ body {
     margin: 120px 140px;
     align-items: center;
     border-radius: 10px;
-    /* border: 1px solid; */
 }
 
 .new-park-hotel-details {
@@ -233,11 +234,9 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 120px 140px 0;
-    /* border: 1px solid; */
 }
 
 .left-section {
-    /* width: 400px; */
     margin-top: 104px;
 }
 
@@ -258,7 +257,6 @@ body {
     text-transform: capitalize;
     margin-bottom: 20px;
     margin-top: 0;
-    margin-left: -65px;
 }
 
 .coming-soon-description {
@@ -450,6 +448,11 @@ body {
     margin: 12px 12px 12px 12px;
 }
 
+.best-gift-images img:hover {
+    transform: scaleX(1.3);
+    transition: 2s;
+}
+
 /* Subscribe Newsletter section */
 .subscribe-section {
     display: flex;
@@ -527,4 +530,77 @@ body {
     font-weight: 600;
     text-transform: capitalize;
     border: none;
+}
+
+/* footer section */
+footer {
+    background: #070211;
+    height: 500px;
+    padding: 120px 140px;
+}
+
+.footer-section {
+
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    /* height: 600px; */
+}
+
+.address-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 120px 0 50px 0;
+}
+
+.address {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    width: 400px;
+    line-height: 40px;
+}
+
+.num-web img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    margin-bottom: -4px;
+}
+
+.num-web p {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.social-section {
+    margin: 48px 0;
+}
+
+.social-section ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-section ul img {
+    width: 64px;
+    height: 64px;
+    margin: 0 12px;
+}
+
+.footer-section hr {
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+    border: none;
+}
+
+.copy-right-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
 }
