@@ -42,7 +42,6 @@ body {
     font-weight: 400;
     line-height: normal;
     margin-bottom: 0;
-    /* margin-top: 117px; */
 }
 
 .banner>h3 {
@@ -614,6 +613,7 @@ footer {
     background-color: transparent;
     border: none;
 }
-button:hover{
+
+button:hover {
     cursor: pointer;
 }
